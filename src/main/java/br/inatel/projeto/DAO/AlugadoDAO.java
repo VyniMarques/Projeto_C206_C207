@@ -48,6 +48,7 @@ public class AlugadoDAO extends ConnectionDAO{
             pst.setInt(4, alugado.getJogo_id());
             pst.setInt(5, id);
             pst.execute();
+            atjogo.atualizarJogo(id, false);
             sucesso = true;
 
         } catch (SQLException ex) {
