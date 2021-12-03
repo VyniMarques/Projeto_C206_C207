@@ -12,7 +12,7 @@ public abstract class ConnectionDAO {
     String database = "locadoraDeJogos";
     String url = "jdbc:mysql://127.0.0.1:3306/" + database + "?useTimezone=true&serverTimezone=UTC&useSSL=false&allowPublicKeyRetrieval=true";
     String user = "root";
-    String password = "root101625root";
+    String password = "root";
 
     public void connectToDB() {
         try {
